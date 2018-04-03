@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.anychart.com/releases/v8/css/anychart-ui.min.css" />
+    <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+<div id="container"></div>
+<script>
+    anychart.onDocumentReady(function() {
+
+    var chart = anychart.area3d({{ chartData }});
+    chart.title({{ chartTitle }});
+    chart.animation(true);
+
+    var xAxis = chart.xAxis();
+    xAxis.title("Year");
+    var yAxis = chart.yAxis();
+    yAxis.title("Students of the USA, %");
+
+    var yScale = chart.yScale();
+    yScale.minimum(1);
+    yScale.maximum(5);
+
+    chart.crosshair(true);
+
+    chart.container("container");
+    chart.draw();
+});
+</script>
+</body>
+</html>
