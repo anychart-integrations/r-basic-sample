@@ -85,9 +85,9 @@ Database - [MySQL](https://www.mysql.com/)<br />
 
 ## License
 AnyChart R/Shiny/MySQL integration sample includes two parts:
-- Code of the integration sample that allows to use Javascript library (in this case, AnyChart) with the R language, Shiny web framework, and MySQL database. You can edit, modify and use it with other Javascript libraries without any restrictions. It is released under [Apache 2.0 License](https://github.com/anychart-integrations/r-shiny-mysql-template/blob/master/LICENSE).
+- Code of the integration sample that allows to use Javascript library (in this case, AnyChart) with the R language, Shiny web framework, and MySQL database. You can edit, modify and use it with other Javascript libraries without any restrictions. It is released under [Apache 2.0 License](https://github.com/anychart-integrations/r-basic-sample/blob/master/LICENSE).
 - AnyChart JavaScript library, which is released under Commercial license. You can test this plugin with the trial version of AnyChart. Our trial version is not limited by time and doesn't contain any feature limitations. Check details [here](https://www.anychart.com/buy/).
 
 If you have any questions regarding licensing - please contact us. <sales@anychart.com>
 
-[![Analytics](https://ga-beacon.appspot.com/UA-228820-4/Integrations/r-shiny-mysql-template?pixel&useReferer)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://ga-beacon.appspot.com/UA-228820-4/Integrations/r-basic-sample?pixel&useReferer)](https://github.com/igrigorik/ga-beacon)
