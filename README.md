@@ -1,5 +1,5 @@
 [<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://www.anychart.com)
-# R basic template
+# R basic sample
 This example shows how to use Anychart library with the R programming language, Shiny web framework, and MySQL database.
 
 ## Running
@@ -52,7 +52,7 @@ If you have some troubles with dependencies installation, read error messages ca
 
 And finally run the application using the absolute path to the project folder:
 ```
-> runApp("{PATH_TO_TEMPLATE}") # e.g. runApp("~/work/r-basic-sample") 
+> runApp("{PATH_TO_TEMPLATE}") # e.g. runApp("~/work/r-basic-sample")
 ```
 
 Your browser will open the application automatically.
