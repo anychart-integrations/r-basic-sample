@@ -8,7 +8,7 @@ To get started you need R to be installed, if you don't have it, you can visit [
 and also you need MySQL to be installed and running, if you don't have it either, please check out [MySQL download page](https://dev.mysql.com/downloads/installer/) and follow [these instructions](http://dev.mysql.com/doc/refman/5.7/en/installing.html).
 
 To make sure that everything is ok, run the following in the command line:
-```
+```bash
 $ R --version
 R version 3.4.4 (2018-03-15) -- "Someone to Lean On"... # sample output
 
@@ -19,27 +19,27 @@ mysql  Ver 14.14 Distrib 5.7.21, for macos10.13 (x86_64) using  EditLine wrapper
 Then execute the commands listed below to start this sample.
 
 Clone the repository from github.com:
-```
+```bash
 $ git clone git@github.com:anychart-integrations/r-basic-sample.git
 ```
 
 Navigate to the repository folder:
-```
+```bash
 $ cd r-basic-sample
 ```
 
 Set up MySQL database, use -u -p flags to provide username and password:
-```
+```bash
 $ mysql -u {USER} -p < database_backup.sql
 ```
 
 Run R:
-```
+```bash
 $ R
 ```
 
 Install application dependencies, one after another and initialize the Shiny library:
-```
+```r
 > install.packages("shiny")
 
 > install.packages("RMySQL")
@@ -51,7 +51,7 @@ Install application dependencies, one after another and initialize the Shiny lib
 If you have some troubles with dependencies installation, read error messages carefully, e.g. to install 'RMySQL' you may need `sudo apt-get install libmysqlclient-dev` command.
 
 And finally run the application using the absolute path to the project folder:
-```
+```r
 > runApp("{PATH_TO_TEMPLATE}") # e.g. runApp("~/work/r-basic-sample")
 ```
 
@@ -59,7 +59,7 @@ Your browser will open the application automatically.
 
 ## Workspace
 Your workspace should look like:
-```
+```bash
 r-basic-sample/
     www/
         css/
